@@ -8,7 +8,7 @@ api = Api(app, version='1.0', title='CarMVC API', description='A simple TodoMVC 
 ns = Namespace('cars', description="all cars", path='')
 api.add_namespace(ns, path="/api/v1")
 
-# new commit
+# new commit add
 # база данных
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cars.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
